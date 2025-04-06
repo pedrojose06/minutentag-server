@@ -47,29 +47,12 @@ You can test queries and mutations using the GraphQL Playground.
 #### Fetch all beers
 
 ```graphql
-query {
-  beers {
+query ExampleQuery {
+  getAllProducts {
     id
-    name
-    type
+    brand
+    image
     price
-    alcoholContent
-  }
-}
-```
-
-#### Add a new beer
-
-```graphql
-mutation {
-  addBeer(input: {
-    name: "Pale Ale",
-    type: "Ale",
-    price: 5.5,
-    alcoholContent: 4.7
-  }) {
-    id
-    name
   }
 }
 ```
