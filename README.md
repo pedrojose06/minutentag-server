@@ -27,7 +27,7 @@ npm install
 ### Running the Server
 
 ```bash
-npm run dev
+node src/index.js
 ```
 
 The server will start on `http://localhost:4000`.
